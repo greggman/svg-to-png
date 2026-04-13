@@ -1,0 +1,22 @@
+{
+  "name": "@greggman/svg-to-png",
+  "version": "1.0.0",
+  "description": "makes a texture atlas from svg files",
+  "main": "svg-to-png.js",
+  "bin": {
+    "svg-to-png": "./svg-to-png.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["svg", "texture atlas", "texture", "icon", "icons"],
+  "author": "Gregg Tavares",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "puppeteer": "^24.40.0"
+  }
+}
